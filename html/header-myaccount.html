@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dreamdiary</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="../images/logo.png"/>
+
+    <!-- Material Design Lite JavaScript -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type="text/javascript" src="../script/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../script/myaccount.js"></script>
+  </head>
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title">Dreamdiary</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link" href="../post/home.php">Home</a>
+                    <a class="mdl-navigation__link" href="../post/myposts.php">I miei Post</a>
+                    <a class="mdl-navigation__link is-active" href="../utente/myaccount.php">Profilo</a>
+                    <a class="mdl-navigation__link" href="../php/logout.php">Logout</a>
+                    <form action="../post/search-post.php" method="get">
+                      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="id_search">
+                          <i class="material-icons">search</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                          <input class="mdl-textfield__input" type="text" id="id_search" name="key">
+                          <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+                        </div>
+                      </div>
+                    </form>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+              <a class="mdl-navigation__link" href="../post/home.php">Home</a>
+              <a class="mdl-navigation__link" href="../post/myposts.php">I miei Post</a>
+              <a class="mdl-navigation__link is-active" href="../utente/myaccount.php">Profilo</a>
+              <a class="mdl-navigation__link" href="../php/logout.php">Logout</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">

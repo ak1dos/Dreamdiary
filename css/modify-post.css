@@ -1,0 +1,13 @@
+#formTitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+#modifyForm .mdl-textfield {
+  width: 100%;
+}
+
+#modifyForm form {
+  margin-left: 15px;
+  margin-right: 15px;
+}

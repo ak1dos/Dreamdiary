@@ -1,0 +1,43 @@
+.user_info {
+  max-width: 900px;
+  min-width: 350px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.dateRegistration {
+  text-align: right;
+  font-style: italic;
+  margin: 0;
+}
+.user_info .mdl-card__title{
+  background: url('../images/header-bg.jpg') bottom;
+}
+.bestPost i{
+  width: 20px;
+}
+
+p.infoTitlePost{
+  margin-left: 15px;
+}
+
+.bestPost a{
+  align-content: center;
+  margin-left: 15px;
+  overflow: visible;
+}
+.bestPost .infoTitlePost {
+  font-style: italic;
+}
+.bestPost{
+  float: right;
+}
+
+form {
+  margin-bottom: 0;
+}
+
+header > div.mdl-layout__drawer-button.mdl-layout--small-screen-only > i{
+  bottom: -10px;
+  position: relative;
+}

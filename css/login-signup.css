@@ -1,0 +1,13 @@
+.loginContainer,
+.signupContainer{
+  width: 320px;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.loginContainer.mdl-card > .mdl-card__title,
+.signupContainer.mdl-card > .mdl-card__title {
+  background:
+    url('../images/header-bg.jpg') bottom;
+}

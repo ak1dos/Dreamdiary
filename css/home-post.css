@@ -1,0 +1,108 @@
+
+/*caratteristiche del chip utente*/
+.mdl-chip--contact {
+  width: max-content;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.updatePost {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: white;
+}
+
+.location {
+  float: right;
+  margin-right: 15px;
+}
+
+span.comments {
+  margin-right: 20px;
+  margin-top: 5px;
+  float: right;
+}
+.openPost {
+  margin-top: 5px;
+}
+
+.mdl-card__supporting-text{
+    width: auto;
+}
+
+span.comments,
+span.like{
+  background: transparent;
+  color: rgb(255,64,129);
+  font-weight: 400;
+}
+
+#logout{
+  width: max-content;
+  position: relative;
+  margin: 15px;
+  float: left;
+}
+
+#addPost{
+  width: max-content;
+  position: fixed;
+  margin: 15px;
+  z-index: 999;
+  right: 15px;
+}
+
+.newPostContainer {
+  width: 320px;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  display: none;
+}
+
+.newPostContainer > .mdl-card__title {
+  background:
+    url('../images/header-bg.jpg') bottom;
+}
+
+.portfolio-blog-card-strip-bg {
+  background-color: #263238;
+}
+
+.portfolio-blog-card-strip-bg .mdl-card__title {
+  padding: 16px;
+}
+
+.portfolio-blog-card-strip-bg h2{
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio-post{
+  min-width: 350px;
+}
+
+.datePost{
+  margin-bottom: 15px;
+  margin-right: 15px;
+  text-align: right;
+  font-style: italic;
+  color: rgba(0,0,0,.54);
+}
+/*
+.portfolio-blog-card-strip-bg h2.quote:before,
+.portfolio-blog-card-strip-bg h2.quote:after {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 2.5em;
+}
+
+.portfolio-blog-card-strip-bg h2.quote:before{
+  content: '“';
+}
+
+.portfolio-blog-card-strip-bg h2.quote:after{
+  content: '”';
+}
+*/
